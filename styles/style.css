@@ -1,0 +1,29 @@
+:root {
+    --bg-color: #1d3557
+}
+body {
+    padding: 20px;
+    background-color: rgba(66, 161, 7, 0.299);
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#todoList .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoutButton {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
